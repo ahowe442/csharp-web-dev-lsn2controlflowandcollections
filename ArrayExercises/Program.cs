@@ -23,11 +23,11 @@ namespace ArrayExercises
                 //Takes the integer and divides it by 2 (modulo), if the result equals zero then it prints the integer.
                 if (i % 2 == 0)
                 {
-                    Console.WriteLine(i);
+                    continue;
                 }
                 else
                 {
-                    continue;
+                    Console.WriteLine(i);
                 }
             }
 
